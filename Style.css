@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #19a1ad;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+.banner{
+    background-image: url(images/bg-pattern-card.svg);
+    width: 350px;
+    height: 160px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pfp{
+    background-image: url(images/image-victor.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 125px;
+    margin-top: -50px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name h1{
+    font-size: 18px;
+    color: #505050;
+}
+
+.name h2{
+    font-size: 18px;
+    color: grey;
+    margin-left: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.location h3{
+    font-size: 17px;
+    color: #747474;
+}
+
+.bottem{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.followers{
+    margin-right: 20px;
+}
+
+.likes{
+    margin-right: 20px;
+}
+
+.photos{
+    margin-left: 20px;
+}
+
+.followers h1,
+.likes h1,
+.photos h1
+{
+    color: #2e3142;
+}
+
+.followers h3,
+.likes h3,
+.photos h3
+{
+    color: #818181;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.end h4{
+    color: white;
+}
